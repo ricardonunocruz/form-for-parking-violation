@@ -62,7 +62,7 @@ function getMainMessage(){
     var msg1 = "Eu, <b>" + $("#name").val() + "</b>, com o <b>" + $("#id_type").val() + "</b> com o número <b>" + $("#id_number").val() + "</b> " +
         "e com residência em <b>" + $("#address").val() + ", " + $("#postal_code").val() + ", " + $("#address_city").val() + 
         "</b>, venho por este meio," + " " +
-        "ao abrigo do n.º 5 do artigo 170.º do Código da Estrada, fazer a seguinte denúncia de contra-ordenação para que a " +
+        "ao abrigo do n.º 5 do artigo 170.º do Código da Estrada, fazer a seguinte denúncia de contraordenação para que a " +
         authority + " " + "levante o auto respetivo e multe o infra-mencionado responsável.";
 
     var msg2 = "No passado dia <b>" + $.datepicker.formatDate("dd' de 'MM' de 'yy", $( "#date" ).datepicker('getDate') ) + "</b>" +
@@ -74,8 +74,8 @@ function getMainMessage(){
         "encontrava-se estacionada" + " " + penaltyDescription + ", em violação " + penaltyLawArticle +".";
 
     var msg3 = "Pode-se comprovar esta situação através" + " " + ((IMGS_URI_CLEAN_ARRAY.length == 1) ? "da fotografia anexa" : "das fotografias anexas") + 
-               " " + "à presente mensagem eletrónica. Juro pela minha honra que a informação supra citada é verídica." + " " +
-               "Recordo ainda, que ao abrigo do referido n.º 5 do artigo 170.º do Código da Estrada," + " " + 
+               " " + "à presente mensagem eletrónica. Juro pela minha honra que a informação supracitada é verídica." + " " +
+               "Recordo ainda que ao abrigo do referido n.º 5 do artigo 170.º do Código da Estrada," + " " + 
                "a autoridade que tiver notícia por denúncia de contraordenação, levanta auto," + " " + 
                "não carecendo de presenciar tal contraordenação rodoviária, situação a que se aplica o n.º 1 do mesmo artigo.";
 
